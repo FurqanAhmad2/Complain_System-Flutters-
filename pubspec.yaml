@@ -1,0 +1,32 @@
+name: flutter_walkthrough
+description: Flutter Walkthrough Starter Kit
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  smooth_page_indicator: ^1.0.0+2
+  fl_chart: ^0.66.0
+  http: ^1.2.0
+  intl: ^0.17.0
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  android: false
+  ios: true
+  remove_alpha_ios: true
+  image_path: android/app/src/main/ic_launcher-playstore.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
